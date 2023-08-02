@@ -5,7 +5,7 @@ module.exports = {
   ...common,
   mode: 'production',
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'build'),
     filename: '[fullhash].js',
   },
 };
