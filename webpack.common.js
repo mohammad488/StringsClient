@@ -5,11 +5,6 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx', '.css'],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './index.html',
-    }),
-  ],
   module: {
     rules: [
       {
